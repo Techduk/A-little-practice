@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Жарников Эдуард">
+        <meta name="description" content="Практика наиву">
+        <meta name="keywords" content="тест,html,css">
+        
+        <title>Тестируем</title>
+    </head>
+    
+    <body>
+        <!-- Хмхмхмхмхм, короче, как на haxe // -->
+        <!-- И да, ниже титульный текст -->
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <!-- Выделение, или то что обязательно пригодится -->
+        <p>Красная строка (p)</p>
+        <p><em>em</em></p>
+        <p><b>b</b></p>
+        br<br>
+        Абзац
+
+        <!-- Дополнительные функции -->
+        <p><strike>strike</strike></p>
+        <p>a<sup>2</sup></p>
+        <p>H<sub>2</sub>O</p>
+
+        <ol start="4" type="I">
+            <li>ol</li>
+            <li>Пронумерованный список</li>
+        </ol>
+
+        <ul type="square">
+            <li>ul</li>
+            <li>Не пронумерованный список</li>
+        </ul>
+
+        hr be like:
+        <hr>
+
+        abbr не понял сути, но (Что-то title="Ваш текст") = Наведи на
+        <abbr title="Код, на котором я это пишу">HTML</abbr>
+
+        <p>хз, зачем код, который ниже...</p>
+        <address>Novosibirsk, Russian (address)</address>
+
+        <p><big>big</big></p>
+        <p><samll>small</small></p>
+
+        <code>let b = 0;</code>
+
+        <!-- Столбцы -->
+        <table border="10" width="460px">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Отечество</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Jeremy</td>
+                    <td>Ronald</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>D</td>  
+                </tr>
+            </tfoot>
+        </table>
+
+        
+        <!-- !!Эта штука пригодится!! -->
+        <!-- Картинка с интернета -->
+        <img src="https://escapemgz.com/wp-content/uploads/2019/06/k2-eight-thousanders-569024383df78cafda7e2022.jpg" width="100%" height="200px" alt="oops, image cant load :(">
+
+        <!-- Картинка с проекта -->>
+        <img src="images/aaa.gif">
+
+        <!-- Переход по ссылкам, по сути для переходов -->
+        <a href="thecoolpage2.html" title="Нажми на меня!!!" target="_self">The cool page 2</a><br>
+
+        <!-- Кнопка-текст для якоря -->
+        <a href="#bp">going to down</a><br>
+
+        <!-- Что-бы писали на почту -->
+        <a href="mailto:ledep.goi@gmail.com">Написать на почту</a><br>
+
+        <!-- Якорь, т.е. перенос, куда мы обозначили -->
+        <a name="bp"></a>
+
+        <pre>pre <-- Аффигенная штука
+            
+var rankText:FlxText = new FlxText(0, 10);
+    rankText.text = 'RANK: GREAT';
+    rankText.setFormat(Paths.font("vcr.ttf"), 32);
+    rankText.size = scoreText.size;
+    rankText.screenCenter(X);
+            </pre>
+
+
+
+            <!-- Для css -->
+            <div>Супер пупер <span>Текст</span></div>
+            <div>Текст</div><br><br>
+
+            <!-- input система -->
+            <form action="Та страница, которая обрабатывает данные из формы на другой язык" method="post">
+                <label for="number">Введи число</label>
+                <input type="text" placeholder="Введите тут число" value="Текст, который уже установлен" maxlength="5" name="number" id="number"><br><br>
+    
+    
+                <input type="password">
+                <input type="email">
+                <input type="url">
+                <input type="color">
+                <input type="date">
+                <input type="datetime">
+                <input type="time"><br><br><br>
+    
+                <input type="checkbox"><br>
+                <input type="radio" name="bummot">
+                <input type="radio" name="bummot"><br><br><br>
+    
+                <input type="file">
+                <input type="search"><br><br><br>
+    
+                <input type="password">
+                <input type="button" value="lol">
+                <input type="submit" id="bummona">
+                <input type="reset" value="Очистить"><br><br>
+
+                <!-- Поле для большого текста и кнопка, которую буду использовать -->>
+                <form>
+                    <textarea placeholder="Введите что-нибудь :P">Просто текст</textarea><br>
+        
+                    <button type="button">Готово</button>
+        
+                </form><br><br><br>
+
+                <!-- Списки выбиралки -->
+                <select>
+                    <option selected disabled></option>
+                    <option>a</option>
+                    <option>b</option>
+                    <option>c</option>
+                </select><br><br>
+        
+                <select size="2">
+                    <option selected disabled></option>
+                    <option>a</option>
+                    <option>b</option>
+                    <option>c</option>
+                </select><br>
+
+                        <!-- Основа сайта в плане дизайна. -->
+                <header>Шапка</header>
+                <main>Основа сайта</main>
+                <aside>Боковушка</aside>
+                <footer>Футер</footer><br>
+
+
+                <!-- Поггерс бар -->
+                <progress max="160" value="52">
+                    Загруженно на 52%
+                </progress><br>
+
+                <!-- Детали, которые могут помочь -->
+                <details>
+                    <summary>Подробнее</summary>
+                    Лорем упал и он...
+                </details><br>
+    </body>
+</html>
