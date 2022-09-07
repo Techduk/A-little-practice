@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;700;800&display=swap');
+
+/* Обязательно: */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* aaaaaaaaaaaa */
+
+.smth-else: {
+    color: black;
+    text-decoration: none;
+}
+
+.smth-else:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+b:active {
+    text-decoration: line-through;
+}
+
+b:visited {
+    color: grey;
+}
+
+input {
+    color: red
+}
+input:focus {color: black}
+
+.something::first-letter {
+    color: red;
+}
+
+/*#logo {
+    color: black;
+}
+
+div p b, div i {
+    color: blue
+}
+*/
+
+/*
+Комментарии
+*/
+
+#firht {
+    background: rgb(35, 35, 50) url(https://cdn.jetphotos.com/full/1/29568_1085914681.jpg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    background: rgb(35, 35, 50);
+    height: 2000px;
+    background-attachment: fixed;
+}
+
+/* Тут нужен import с начала */
+.text {
+    color: red;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Inconsolata', monospace;
+
+    word-spacing: 1px;
+    letter-spacing: -5px;
+    line-height: 30px;
+}
+
+.block {
+    background: lightcoral;
+    height: 200px;
+    width: 200px;
+    
+    border-left: 5px dotted #34309c;
+    border-style: double;
+    
+    border-radius: 15px 50px 100px;
+    
+    opacity: 1;
+
+    margin: 50px 34px 47px 100px;
+
+    padding: 20px 50px;
+
+    display: block;
+}

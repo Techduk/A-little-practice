@@ -1,15 +1,104 @@
-.smth-else {
-    color: red;
+ /* Обязательно: */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* aaaaaaaaaaaa */
+
+body {
+    background: #393e46;
+    height: 2000px;
+    background-attachment: fixed;
 }
 
-#logo {
-    color: red;
+header {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-bottom: 2px solid bbb;
+    background: #222831;
+    color:#eeeeee;
+    line-height: 70px;
+    margin-bottom: 10px;
+    float: left;
 }
 
-div p b, div i {
-    color: blue
+#nvm {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-/*
-Комментарии
-/
+#nvm li {
+    display: inline;
+    background: #222831;
+    border: 1px solid silver;
+    padding: 0 20px;
+    color: #eeeeee;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #222831;
+}
+
+#nvm li:hover {
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    border-color: #333;
+}
+
+#nvm li:not(last-of-type) {
+    margin-right: 20px;
+}
+
+main {
+   width: 50%;
+   margin-left: 10%;
+   background: #00adb5; 
+   border: 1px solid silver;
+   padding: 20px 2.5%;
+   float: left;
+   z-index: 1;
+}
+
+aside {
+    width: 20%;
+    padding: 20px 2.5%;
+    background: #00adb5;
+    border: 1px solid silver;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    bottom: -10px;
+    left: -100px;
+    z-index: 0;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-top: 2px solid bbb;
+    background: #222831;
+    color:#eeeeee;
+    line-height: 70px;
+    margin-top: 30px;
+    float: left;
+}
+
+#sb {
+    background: red;
+    color: #eeeeee;
+    text-align: :center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+}
