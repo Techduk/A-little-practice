@@ -1,74 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;700;800&family=Nunito:wght@400;500;600;700;800;900&display=swap');
  /* Обязательно: */
 * {
     margin: 0;
     padding: 0;
 }
-/* aaaaaaaaaaaa */
+/* eeeeeeeeeeee */
 
+/*Цвет БГраунда*/
 body {
-    background: #393e46;
+    background: #eeeeee;
     height: 2000px;
     background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+}
+/*              */
+
+/* Вверхняя часть */
+#nothing {
+  width: 100%;
+  height: 70px;
+  text-align: left;
+  line-height: 70px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 header {
     width: 100%;
     height: 70px;
-    text-align: center;
+    text-align: left;
     border-bottom: 2px solid bbb;
     background: #222831;
     color:#eeeeee;
     line-height: 70px;
     margin-bottom: 10px;
     float: left;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
 }
 
-#nvm {
+header img {
+      margin-left: 15px;
+      float: left;
+}
+/* ---------------- */
+
+/* Кнопки */
+/#nvm {
     list-style: none;
     display: block;
-    float: left;
     width: 50%;
     margin-left: 25%;
-    text-align: center;
+    text-align: right;
     margin-bottom: 50px;
 }
 
 #nvm li {
     display: inline;
-    background: #222831;
+    background: #637373;
     border: 1px solid silver;
     padding: 0 20px;
     color: #eeeeee;
-    cursor: pointer;
     border-radius: 5px;
-    border-color: #222831;
+    border-color: #ffeadb;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
 }
 
 #nvm li:hover {
-    color: #fff;
+    color: #ffeadb;
     background: #333;
     border-radius: 5px;
-    border-color: #333;
+    border-color: #ffeadb;
 }
 
 #nvm li:not(last-of-type) {
     margin-right: 20px;
 }
+/*           */
 
+/* Главная часть */
 main {
    width: 50%;
    margin-left: 10%;
-   background: #00adb5; 
+   background: #393e46;
    border: 1px solid silver;
    padding: 20px 2.5%;
    float: left;
    z-index: 1;
 }
 
+/* Боковая часть */
 aside {
     width: 20%;
     padding: 20px 2.5%;
-    background: #00adb5;
+    background: #393e46;
     border: 1px solid silver;
     float: left;
     margin-left: 5%;
@@ -78,6 +106,7 @@ aside {
     z-index: 0;
 }
 
+/* Футер */
 footer {
     width: 100%;
     height: 70px;
@@ -88,17 +117,4 @@ footer {
     line-height: 70px;
     margin-top: 30px;
     float: left;
-}
-
-#sb {
-    background: red;
-    color: #eeeeee;
-    text-align: :center;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 50%;
-    position: fixed;
-    left: 20px;
-    top: 10px;
 }

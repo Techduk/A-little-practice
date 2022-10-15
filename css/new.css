@@ -78,12 +78,12 @@ div p b, div i {
     background: lightcoral;
     height: 200px;
     width: 200px;
-    
+
     border-left: 5px dotted #34309c;
     border-style: double;
-    
+
     border-radius: 15px 50px 100px;
-    
+
     opacity: 1;
 
     margin: 50px 34px 47px 100px;
@@ -91,4 +91,18 @@ div p b, div i {
     padding: 20px 50px;
 
     display: block;
+}
+
+
+#ball {
+    background: red;
+    color: #eeeeee;
+    text-align: :center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    left: 20px;
+    top: 10px;
 }
