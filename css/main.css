@@ -8,7 +8,7 @@
 
 /*Цвет БГраунда*/
 body {
-    background: #eeeeee;
+    background: #dad7cd;
     height: 2000px;
     background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
@@ -30,18 +30,20 @@ header {
     height: 70px;
     text-align: left;
     border-bottom: 2px solid bbb;
-    background: #222831;
+    background: #292933;
     color:#eeeeee;
     line-height: 70px;
     margin-bottom: 10px;
     float: left;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
     position: fixed;
 }
 
 header img {
-      margin-left: 15px;
-      float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    float: left;
+    width: 175px;
 }
 /* ---------------- */
 
@@ -57,12 +59,12 @@ header img {
 
 #nvm li {
     display: inline;
-    background: #637373;
-    border: 1px solid silver;
+    background: #a98467;
+    border: 1px solid #adc178;
     padding: 0 20px;
-    color: #eeeeee;
+    color: #ffeadb;
     border-radius: 5px;
-    border-color: #ffeadb;
+    border-color: #adc178;
     margin-top: 10px;
     height: 50px;
     line-height: 50px;
@@ -71,7 +73,7 @@ header img {
 
 #nvm li:hover {
     color: #ffeadb;
-    background: #333;
+    background: #6c584c;
     border-radius: 5px;
     border-color: #ffeadb;
 }
@@ -85,7 +87,7 @@ header img {
 main {
    width: 50%;
    margin-left: 10%;
-   background: #393e46;
+   background: #292933;
    border: 1px solid silver;
    padding: 20px 2.5%;
    float: left;
@@ -96,8 +98,8 @@ main {
 aside {
     width: 20%;
     padding: 20px 2.5%;
-    background: #393e46;
-    border: 1px solid silver;
+    background: #292933;
+    border: 1px solid #dad7cd;
     float: left;
     margin-left: 5%;
     position: relative;
@@ -112,7 +114,7 @@ footer {
     height: 70px;
     text-align: center;
     border-top: 2px solid bbb;
-    background: #222831;
+    background: #292933;
     color:#eeeeee;
     line-height: 70px;
     margin-top: 30px;
