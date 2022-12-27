@@ -9,7 +9,7 @@
 
 /*Цвет БГраунда*/
 body {
-    background: #f0ead2;
+    background: #dad7cd;
     height: 2000px;
     background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
@@ -40,53 +40,48 @@ header {
     z-index: 100;
 }
 
-.icon {
+header img {
     margin-top: 5px;
+    margin-left: 15px;
+    float: left;
     width: 225px;
-    
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-}
-
-.obol {
-    transition: all .4s ease;
-}
-
-.lepe {
-    transition: all .4s ease;
-}
-
-.icon:hover .obol {
-    fill: #f0ead2;
-}
-
-.icon:hover .lepe {
-    fill: #adc178;
 }
 /* ---------------- */
 
 /* Кнопки */
-.icons {
+/#nvm {
     list-style: none;
-    margin-top: 12px;
-    margin-right: 15px;
-    width: 45px;
-    height: 45px;
-    float: right;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+#nvm li {
     display: inline;
-    
-    fill:white;
-    stroke:white;
-    stroke-width:white;
-
-    transition: all .4s ease;
+    background: #a98467;
+    border: 1px solid #adc178;
+    padding: 0 20px;
+    color: #ffeadb;
+    border-radius: 5px;
+    border-color: #adc178;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
 }
 
-.icons:hover {
-    fill:#adc178;
+#nvm li:hover {
+    color: #ffeadb;
+    background: #6c584c;
+    border-radius: 5px;
+    border-color: #ffeadb;
 }
 
+#nvm li:not(last-of-type) {
+    margin-right: 20px;
+}
 /*           */
 
 /* Главная часть */
