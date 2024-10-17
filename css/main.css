@@ -9,7 +9,7 @@
 
 /*Цвет БГраунда*/
 body {
-    background: #f0ead2;
+    background: #E7EAEF;
     height: 2000px;
     background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
@@ -58,11 +58,11 @@ header {
 }
 
 .icon:hover .obol {
-    fill: #f0ead2;
+    fill: #37745B;
 }
 
 .icon:hover .lepe {
-    fill: #adc178;
+    fill: #E7EAEF;
 }
 /* ---------------- */
 
@@ -107,6 +107,7 @@ aside {
     background: #292933;
     border: 1px solid #dad7cd;
     margin-left: 5%;
+    border-radius: 10px;
     position: relative;
     bottom: -10px;
     left: -100px;
