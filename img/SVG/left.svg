@@ -2,11 +2,11 @@
   <defs>
     <style>
       .a {
-        fill: #588157;
+        fill: #ffffff;
       }
 
       .b {
-        fill: #dad7cd;
+        fill: #000000;
       }
 
       .c {
