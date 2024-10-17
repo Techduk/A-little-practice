@@ -106,13 +106,13 @@ aside {
     padding: 20px 2.5%;
     background: #292933;
     border: 1px solid #dad7cd;
-    margin-left: 5%;
+    margin: 10px;
     border-radius: 10px;
     position: relative;
-    bottom: -10px;
-    left: -100px;
-    float: left;
+    float: right;
     z-index: 0;
+    height: 50%;
+    min-height: 300px;
 }
 
 /* Футер */
